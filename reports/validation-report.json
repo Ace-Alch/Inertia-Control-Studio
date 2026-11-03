@@ -1,0 +1,47 @@
+{
+  "defaultSingleLinkTest": {
+    "seed": 7291,
+    "configuration": {
+      "seconds": 12,
+      "spread": 0.1,
+      "push": 1,
+      "random": true,
+      "start": "down",
+      "weights": [
+        4,
+        1,
+        0.3,
+        0.5,
+        2,
+        20,
+        20,
+        1
+      ]
+    },
+    "metrics": {
+      "trials": 100,
+      "score": 12.20776340843697,
+      "success": 0.52,
+      "rms": 1.290588021588451,
+      "xRMS": 0.1786049193183612,
+      "effort": 131.08142941942518,
+      "work": 14.637834502146042,
+      "peak": 21.82920296431071,
+      "travel": 0.8965886193041083,
+      "maxAngle": 3.1415846392112443,
+      "saturation": 0.000008333333333333334,
+      "events": 0.01,
+      "rail": 0,
+      "settle": 4.598943396226348,
+      "capture": 3.266094339622749,
+      "recovery": 0.5885849056609466,
+      "stable": 2.2320499999998975,
+      "failures": 48
+    }
+  },
+  "rk4Convergence": {
+    "coarseError": 1.6379616551986942e-7,
+    "fineError": 7.930429868352462e-9,
+    "ratio": 20.654134547424967
+  }
+}

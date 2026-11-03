@@ -1,0 +1,17 @@
+{
+  "htmlLoads": true,
+  "maxThreeLinks": true,
+  "engineeringForms": true,
+  "parameterApply": true,
+  "controlButtons": true,
+  "workerCompletes": true,
+  "compatibilityMode": true,
+  "presets": true,
+  "multiLinkSwingPresets": true,
+  "speed8x": true,
+  "testSetLock": true,
+  "modelExport": true,
+  "physicsCheckDashboard": true,
+  "rawTextareas": 0,
+  "errors": []
+}

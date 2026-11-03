@@ -1,0 +1,17 @@
+# Dependencies and local runtime
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local caches, temporary exports, and generated hosting bundle
+site/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Keep the tracked standalone build (`index.html`) and reference files.

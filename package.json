@@ -1,0 +1,24 @@
+{
+  "name": "inertia-control-studio",
+  "version": "4.1.0",
+  "private": true,
+  "description": "Self-contained nonlinear 1–3 link cart-pendulum dynamics and control laboratory",
+  "scripts": {
+    "build": "python build.py",
+    "test:core": "node tests/test-core.cjs",
+    "test:physics": "node tests/test-realism.cjs && node tests/test-swing.cjs",
+    "test:optimizer": "node tests/test-optimizer.cjs",
+    "test:ui": "node tests/test-dom.cjs",
+    "test": "npm run test:core && npm run test:physics && npm run test:optimizer && npm run test:ui",
+    "validate": "node tests/validate-monte-carlo.cjs",
+    "validate:multi": "node tests/validate-multi.cjs",
+    "test:compat": "node tests/test-dom.cjs --inline",
+    "test:demo": "node tests/test-demo.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.0.1"
+  },
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  }
+}

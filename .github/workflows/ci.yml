@@ -1,0 +1,29 @@
+name: Verify Inertia
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: npm ci
+      - name: Rebuild the standalone demo
+        run: python build.py
+      - name: Confirm the generated demo is committed
+        run: git diff --exit-code -- index.html
+      - name: Physics unit tests
+        run: npm run test:core
+      - name: Multi-link dynamics and controller regression
+        run: npm run test:physics

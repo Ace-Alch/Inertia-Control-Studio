@@ -1,0 +1,42 @@
+[
+  {
+    "links": 2,
+    "dt": 0.001,
+    "capture": 6.001000000000339,
+    "peakForce": 10.369296634443746,
+    "maxTravel": 0.45701857637713783,
+    "maxAngleAfter12s": 6.030819327469028e-9,
+    "finalStage": "BALANCE",
+    "railHits": 0
+  },
+  {
+    "links": 2,
+    "dt": 0.0005,
+    "capture": 6.000499999999394,
+    "peakForce": 10.369296645653245,
+    "maxTravel": 0.4570191100268793,
+    "maxAngleAfter12s": 6.042825159309471e-9,
+    "finalStage": "BALANCE",
+    "railHits": 0
+  },
+  {
+    "links": 3,
+    "dt": 0.001,
+    "capture": 7.001000000000673,
+    "peakForce": 13.355775504696837,
+    "maxTravel": 0.6618265291294884,
+    "maxAngleAfter12s": 1.330158301913434e-7,
+    "finalStage": "BALANCE",
+    "railHits": 0
+  },
+  {
+    "links": 3,
+    "dt": 0.0005,
+    "capture": 7.00049999999884,
+    "peakForce": 13.355774996751244,
+    "maxTravel": 0.6618265291207538,
+    "maxAngleAfter12s": 1.3317321661345084e-7,
+    "finalStage": "BALANCE",
+    "railHits": 0
+  }
+]

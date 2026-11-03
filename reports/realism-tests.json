@@ -1,0 +1,35 @@
+[
+  {
+    "links": 1,
+    "independentEulerLagrangeError": 5.06333863725672e-12,
+    "passiveEnergyRatioAt60s": 7.365679383960965e-28,
+    "maxPassiveEnergyIncrease": 4.3929805843250804e-17
+  },
+  {
+    "links": 2,
+    "independentEulerLagrangeError": 3.0238811454808e-11,
+    "passiveEnergyRatioAt60s": 4.134981049230116e-9,
+    "maxPassiveEnergyIncrease": 0
+  },
+  {
+    "links": 3,
+    "independentEulerLagrangeError": 3.840772144769744e-11,
+    "passiveEnergyRatioAt60s": 3.795822812041086e-7,
+    "maxPassiveEnergyIncrease": 0
+  },
+  {
+    "precisionPreset": "single swing-up",
+    "pass": true
+  },
+  {
+    "precisionPreset": "2 link local balance",
+    "pass": true
+  },
+  {
+    "precisionPreset": "3 link local balance",
+    "pass": true
+  },
+  {
+    "failedCaptureStopsForce": true
+  }
+]

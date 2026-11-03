@@ -1,0 +1,32 @@
+[
+  {
+    "n": 1,
+    "energy": 3.9438293272717813e-13,
+    "localBalanceError": 0.000009717462018214038
+  },
+  {
+    "n": 2,
+    "energy": 4.1073126599271564e-13,
+    "localBalanceError": 0.00007339632887141034
+  },
+  {
+    "n": 3,
+    "energy": 5.781588333896633e-13,
+    "localBalanceError": 0.00016231160991388881
+  },
+  {
+    "analyticalFrequencyRelativeError": 1.7031391431460606e-11
+  },
+  {
+    "delayedControllerStart": true
+  },
+  {
+    "forceAndSlewLimits": true
+  },
+  {
+    "syntheticCalibration": {
+      "exact": 5.685346793248127e-16,
+      "bad": 0.0027454863994676062
+    }
+  }
+]
