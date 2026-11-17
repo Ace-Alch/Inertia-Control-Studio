@@ -1,0 +1,63 @@
+# Inertia Control Studio / Pendulum Lab: source inventory
+
+File paths and object identifiers were read from the repository on 17 November 2026. File presence does not establish successful execution. Generated caches and dependencies are omitted.
+
+| Path | Bytes | Blob SHA |
+| :-- | --: | :-- |
+| [.gitattributes](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/.gitattributes) | 165 | `56e9bf90402819e1fd3d0e005aaf82c53f0e880e` |
+| [.github/workflows/ci.yml](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/.github/workflows/ci.yml) | 720 | `87a44dd5ff9f67b7874979aa216d75dc1ca8a2cc` |
+| [.github/workflows/pages.yml](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/.github/workflows/pages.yml) | 833 | `e4d5b7e26504dae7df776ae20c24d8eff8f5b00c` |
+| [.gitignore](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/.gitignore) | 274 | `5103fd37ec6acf679e5c691862f61dd684146369` |
+| [LICENSE](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/LICENSE) | 11357 | `261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64` |
+| [PUBLISH-WINDOWS.bat](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/PUBLISH-WINDOWS.bat) | 195 | `9ccea793cbee0e9d6f53ee1410858729aa37d06c` |
+| [README.md](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/README.md) | 6670 | `3bf0b27bd6a0d175a5d87d6372a66d1b8c10a446` |
+| [Start-Windows.bat](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/Start-Windows.bat) | 134 | `2c66477ee1a8a79ca8e83fe784d5e751bfdecaf2` |
+| [THIRD_PARTY_NOTICES.md](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/THIRD_PARTY_NOTICES.md) | 775 | `0d06e48475bc569bdb536bb24f2828255f02df07` |
+| [build.py](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/build.py) | 556 | `c15f0a750625a851ce1fdaac913be5b91e4636e0` |
+| [docs/ARCHITECTURE.md](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/docs/ARCHITECTURE.md) | 2272 | `2e10be5ec96f5ace6aea9f799efbdeed9b7094be` |
+| [docs/ENGINEERING_GUIDE.md](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/docs/ENGINEERING_GUIDE.md) | 14607 | `7e84b40f6603eedbd9cac4b0569b5c749fdb7ff2` |
+| [docs/PUBLISHING.md](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/docs/PUBLISHING.md) | 1933 | `70f6150102facca9f773cf773a8a22104f536168` |
+| [docs/VALIDATION.md](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/docs/VALIDATION.md) | 2578 | `7a8ae6d05c08027ac94e51de635092ecb8b7f899` |
+| [docs/assets/laboratory.png](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/docs/assets/laboratory.png) | 454060 | `3c551d2bbe7818588e3a48039d1eec978c2ae5d1` |
+| [docs/assets/optimization.png](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/docs/assets/optimization.png) | 222055 | `3ef81bff4edc4e7de50cdfcad2b90c19ac8aeaed` |
+| [index.html](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/index.html) | 2455770 | `8d337e4bd466ba14694fc74a4df27337d81461d9` |
+| [package-lock.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/package-lock.json) | 19259 | `9150ef125d784359b117ff8804a5449d57f48a3d` |
+| [package.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/package.json) | 884 | `3ca52b96b6356a881b526dae4520255ce46486f6` |
+| [publish-github.ps1](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/publish-github.ps1) | 2067 | `07949ff70d336faee37c37cbea1881919f36d66e` |
+| [publish-github.sh](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/publish-github.sh) | 1751 | `47fcc7c2ef5f36e1a4a75c7e9dce2a8fcfe10447` |
+| [reports/compatibility-tests.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/compatibility-tests.json) | 371 | `8a2095814761deeadaa2a9e9059e4c81c473a0a0` |
+| [reports/demo-tests.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/demo-tests.json) | 1509 | `51e1cb9a22a3b6052e99942cf8e47cf35a155dde` |
+| [reports/dom-tests.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/dom-tests.json) | 372 | `bbddd61df6537809a920d40f851456bd21529f83` |
+| [reports/multi-validation.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/multi-validation.json) | 1733 | `8ece3847a39f638929191c24f211a8eebeb8b821` |
+| [reports/optimizer-tests.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/optimizer-tests.json) | 1176 | `16dc3256acfbd5f5f2f65279b2794b652636584d` |
+| [reports/physics-tests.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/physics-tests.json) | 597 | `43534ec5a2f973666e20a31b1479fc9c7ac467e4` |
+| [reports/realism-tests.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/realism-tests.json) | 796 | `91f904906156f08c0639b97de97af4f8835ccf6e` |
+| [reports/swing-tests.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/swing-tests.json) | 977 | `d6db46e89ab9830539322aee1e037d6c2b52227e` |
+| [reports/validation-report.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/reports/validation-report.json) | 1042 | `af487017cfc683e511d1393ab0f298fc00684c9d` |
+| [src/app.js](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/app.js) | 21786 | `94525d9aece46160de3e2c567f239917afbdb6aa` |
+| [src/core.js](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/core.js) | 11188 | `cfd49cd00eebc47bedf6dfe4a6303a5912161d75` |
+| [src/display.js](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/display.js) | 11248 | `942bc8185045fe9e33d1963633463790fb37ab1a` |
+| [src/layout.html](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/layout.html) | 10263 | `49b7b8f3b317769d575f41074f9f954b15880298` |
+| [src/optimizer.js](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/optimizer.js) | 9442 | `9da18ea4a7a274354796a2595dcc2ddfeb2a86d1` |
+| [src/presets.js](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/presets.js) | 4199 | `ef9759453de7287460e3e48b60b613abb566e2ef` |
+| [src/scene.js](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/scene.js) | 5138 | `df25088081e3660df5b942ac505c0719d24daaa7` |
+| [src/style.css](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/style.css) | 5472 | `60462e7d90a5ec4bf5dfc65571ae1a889fcd9fc0` |
+| [src/swing-data.js](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/src/swing-data.js) | 283937 | `f215cdc80d17db610ba5d5471d2a055cfb6d46ec` |
+| [start_server.py](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/start_server.py) | 612 | `b941548d4a56fd3f75bde5e050df339b14959044` |
+| [tests/test-core.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/test-core.cjs) | 2210 | `c4523181c8e1837062f53af2066d249d56745c9a` |
+| [tests/test-demo.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/test-demo.cjs) | 3995 | `0c523e8f4e07d3ee7c9312de0504d74d52ae25a2` |
+| [tests/test-dom.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/test-dom.cjs) | 4400 | `4edaca17a1b73f5125f7f2275ba67c0fafa3a8cb` |
+| [tests/test-optimizer.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/test-optimizer.cjs) | 2394 | `504a1d394a7b8b38246e34757a5b80e555b3cc99` |
+| [tests/test-realism.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/test-realism.cjs) | 3000 | `569fda2c82df256c16fa457580516ed493900434` |
+| [tests/test-swing.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/test-swing.cjs) | 1096 | `d4b7616eec61cfa6417aa95a3b5ac1ceefa92fcb` |
+| [tests/validate-monte-carlo.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/validate-monte-carlo.cjs) | 1258 | `7b98d4b6f6631754de824a04a8dfe34e2cbb4c11` |
+| [tests/validate-multi.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tests/validate-multi.cjs) | 832 | `0a8aa97e29060b69d72ae6aac07449b33f130b93` |
+| [tools/export_swing.py](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tools/export_swing.py) | 2026 | `60e90862ae9dc5776900c4eac2731c2171d425d0` |
+| [tools/install_references.py](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tools/install_references.py) | 366 | `3868ce3ad6b1b2394d4c5364a781d1461c5f13d4` |
+| [tools/reference2.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tools/reference2.json) | 113385 | `7b28fc65f473457a4ca7a482d7b0575bd0b84df5` |
+| [tools/reference3.json](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tools/reference3.json) | 170425 | `eef846a81b6e29684a9fab18c0a8a6c6df227e35` |
+| [tools/solve_swing.py](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tools/solve_swing.py) | 2625 | `fca2f6924d1ec88320bd8a70e761c1380620a641` |
+| [tools/swing2.npz](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tools/swing2.npz) | 16420 | `ecd1736de60628a9d349b680a715a988a25e5262` |
+| [tools/swing3.npz](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/tools/swing3.npz) | 23476 | `c4bb49ba05fb309d4ee0b39066286ec2babc9ad4` |
+| [vendor/THREE-LICENSE.txt](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/vendor/THREE-LICENSE.txt) | 1081 | `8ada2a5f982916b0ba4b7a0aa7de347587e745d7` |
+| [vendor/three.cjs](https://github.com/Ace-Alch/Inertia-Control-Studio/blob/main/vendor/three.cjs) | 2093053 | `8939a67dd76325ccd25ee8806fc4d22b1caea88a` |

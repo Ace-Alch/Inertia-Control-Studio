@@ -1,3 +1,7 @@
+<img src="portfolio-assets/cover.svg" width="100%" alt="Inertia Control Studio / Pendulum Lab project cover">
+
+[Project case study](portfolio/DESIGN.md) · [Source inventory](portfolio/SOURCE-INVENTORY.md) · [Evidence and limits](portfolio/EVIDENCE.md)
+
 <div align="center">
 
 # INERTIA
