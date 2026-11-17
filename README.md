@@ -1,4 +1,4 @@
-<img src="portfolio-assets/cover.svg" width="100%" alt="Inertia Control Studio / Pendulum Lab project cover">
+<img src="https://raw.githubusercontent.com/Ace-Alch/Ace-Alch.github.io/main/banners/Inertia-Control-Studio.webp" width="100%" alt="Inertia-Control-Studio — concept artwork">
 
 [Project case study](portfolio/DESIGN.md) · [Source inventory](portfolio/SOURCE-INVENTORY.md) · [Evidence and limits](portfolio/EVIDENCE.md)
 
