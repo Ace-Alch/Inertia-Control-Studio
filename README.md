@@ -21,6 +21,17 @@ Explore nonlinear mechanics, swing-up, balancing, optimization, and numerical va
 
 </div>
 
+<!-- project-navigation:start -->
+<p align="center">
+  <a href="https://ace-alch.github.io/work/Inertia-Control-Studio/"><img alt="View project" src="https://img.shields.io/badge/View%20project-58a6ff?style=for-the-badge&logo=githubpages&logoColor=white"></a>
+  <a href="portfolio/DESIGN.md"><img alt="Explore design" src="https://img.shields.io/badge/Explore%20design-30363d?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+  <a href="portfolio/SETUP.md"><img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-30363d?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="portfolio/EVIDENCE.md"><img alt="Check evidence" src="https://img.shields.io/badge/Check%20evidence-30363d?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+</p>
+<p align="center"><strong>Interactive simulator</strong> &nbsp; / &nbsp; Engineering &nbsp; / &nbsp; <a href="https://ace-alch.github.io/">Mehdi's portfolio</a></p>
+<!-- project-navigation:end -->
+
+
 ---
 
 ## ✦ What is Inertia?
