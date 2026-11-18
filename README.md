@@ -1,60 +1,23 @@
-<img src="https://raw.githubusercontent.com/Ace-Alch/Ace-Alch.github.io/main/banners/Inertia-Control-Studio.webp" width="100%" alt="Inertia-Control-Studio — concept artwork">
+# Inertia Control Studio
 
-[Project case study](portfolio/DESIGN.md) · [Source inventory](portfolio/SOURCE-INVENTORY.md) · [Evidence and limits](portfolio/EVIDENCE.md)
+**A nonlinear cart–pendulum laboratory for one, two, or three links.** Try a swing-up, apply a disturbance, or change a plant parameter and compare the response.
 
-<div align="center">
+[**Launch the laboratory**](https://ace-alch.github.io/apps/inertia-lab/) · [Engineering guide](docs/ENGINEERING_GUIDE.md) · [Validation reports](docs/VALIDATION.md)
 
-# INERTIA
+<a href="https://ace-alch.github.io/apps/inertia-lab/"><img src="docs/assets/laboratory.png" alt="Inertia laboratory showing the cart–pendulum model, controller controls, and response plots"></a>
 
-### Control Studio · Interactive Dynamics & Feedback Laboratory
+*The screenshot shows the 2D renderer. Browsers with suitable WebGL support can use the 3D scene.*
 
-**A complete cart–pendulum control laboratory in a single HTML file.**  
-Explore nonlinear mechanics, swing-up, balancing, optimization, and numerical validation for **1–3 coupled links**.
+## Choose an experiment
 
-![Version](https://img.shields.io/badge/release-v4.1-c9a46c?style=flat-square) ![Browser](https://img.shields.io/badge/runtime-browser%20%7C%20offline-4a9c94?style=flat-square) ![Python](https://img.shields.io/badge/build-Python%203-3776ab?style=flat-square) ![Node](https://img.shields.io/badge/tests-Node.js%2022%2B-4c9b64?style=flat-square)
+| Experiment | What you can change and observe |
+| --- | --- |
+| **Swing-up and balance** | Select one to three links and inspect the capture into upright balance. |
+| **Compare feedback** | Tune LQR, PID, or fuzzy control and inspect the live response plots. |
+| **Stress the plant** | Vary mass, friction, actuator limits, noise, or delay. Apply a disturbance, then export the trace. |
+| **Tune a controller** | Run optimization and compare baseline and tuned performance on held-out trials. |
 
-[**Run from source**](#-quick-start) · [**Explore the controls**](#-features) · [**Read test results**](docs/VALIDATION.md) · [**Deployment guide**](docs/PUBLISHING.md)
-
-![Laboratory user interface](docs/assets/laboratory.png)
-
-<sub>Inertia laboratory shown in a headless browser. Rendering uses the 2D fallback in this capture; a suitable GPU enables the Three.js 3D scene.</sub>
-
-</div>
-
-<!-- project-navigation:start -->
-<p align="center">
-  <a href="https://ace-alch.github.io/work/Inertia-Control-Studio/"><img alt="View project" src="https://img.shields.io/badge/View%20project-58a6ff?style=for-the-badge&logo=githubpages&logoColor=white"></a>
-  <a href="portfolio/DESIGN.md"><img alt="Explore design" src="https://img.shields.io/badge/Explore%20design-30363d?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
-  <a href="portfolio/SETUP.md"><img alt="Setup guide" src="https://img.shields.io/badge/Setup%20guide-30363d?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="portfolio/EVIDENCE.md"><img alt="Check evidence" src="https://img.shields.io/badge/Check%20evidence-30363d?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
-</p>
-<p align="center"><strong>Interactive simulator</strong> &nbsp; / &nbsp; Engineering &nbsp; / &nbsp; <a href="https://ace-alch.github.io/">Mehdi's portfolio</a></p>
-<!-- project-navigation:end -->
-
-
----
-
-## ✦ What is Inertia?
-
-Inertia is an **interactive, physics-based engineering demonstrator** for a translating cart carrying one, two, or three serial pendulum links. It was developed to make nonlinear system dynamics and feedback control observable, testable, and tunable through a practical engineering dashboard.
-
-Unlike a scripted animation, the motion is calculated from numerical integration of the physical model. The interface lets you change plant parameters, apply disturbances, observe response curves, compare controllers, and run constrained optimization experiments.
-
-The simulation is **self-contained**: no sign-in, cloud backend, API key, CDN, or external package installation is required to use the built demo.
-
-## ✦ Features
-
-| Laboratory | Engineering | Optimization | Physics checks |
-| --- | --- | --- | --- |
-| Interactive cart–pendulum simulation | Adjustable masses and geometry | Differential Evolution / random search | Energy conservation and decay |
-| One, two, or three links | Motor and friction parameters | Training, validation, and unseen tests | Euler–Lagrange cross-checks |
-| LQR, PID and fuzzy controllers | Sensor noise and delay | Domain randomization | RK4 convergence evidence |
-| Nominal multi-link swing-up presets | Save/load model JSON | Pause/resume checkpoints | Force and slew bounds |
-| Live plots, CSV export, snapshots | Actuator limits and rail contacts | Physical-data calibration workflow | Synthetic calibration checks |
-
-![Optimization dashboard](docs/assets/optimization.png)
-
-## ⚡ Quick start
+## Run the laboratory locally
 
 **No installation:** download the repository, then open [`index.html`](index.html) in a current desktop browser. This is the built standalone application, with its rendering library already embedded.
 
@@ -76,7 +39,7 @@ npm run test:demo     # run guided optimization workflow test
 npm run validate      # seeded numerical and robustness report
 ```
 
-## 🧭 Suggested experiments
+## Try these experiments
 
 1. Choose **Passive · 3** to inspect damped multibody motion with the controller off.
 2. Choose **Swing-up · 1** to see a single-link energy-based swing-up demonstration.
@@ -86,7 +49,7 @@ npm run validate      # seeded numerical and robustness report
 
 For multi-link swing-up, the documented successful operating envelope applies to the **default** physical model, not arbitrary user-modified plants.
 
-## 📊 Evidence and reproducibility
+## Recorded simulation results
 
 | Recorded study | Result |
 | --- | --- |
@@ -100,43 +63,10 @@ These are **simulation results**, not hardware qualifications or a promise of su
 
 [Read the verification methodology and limits](docs/VALIDATION.md) · [View the full engineering guide](docs/ENGINEERING_GUIDE.md)
 
-## 🧱 Project layout
+## How it is built
 
-```text
-index.html               Ready-to-open standalone demo
-src/                     Physics engine, controls, optimizer, UI and rendering
-vendor/                  Offline Three.js distribution and MIT notice
-tests/                   Numerical, regression and interface tests
-reports/                 Reproducible simulation outcomes
-tools/                   Optional Python trajectory optimization utilities
-docs/                    Engineering guide, architecture and evidence
-.github/workflows/       CI verification and GitHub Pages deployment
-build.py                 Standalone HTML builder
-```
+The browser integrates the planar rigid-body model with simplified sensing, friction, motor dynamics, and rail impacts. The standalone HTML includes its renderer and swing-up references. Download it for offline use. Optional trajectory regeneration uses CasADi and SciPy.
 
-The repository includes **Windows and macOS/Linux publishing scripts** for creating a new public GitHub demo repository. See the [publishing guide](docs/PUBLISHING.md).
+[Architecture and source map](docs/ARCHITECTURE.md) · [Repository case study](portfolio/DESIGN.md) · [Deployment guide](docs/PUBLISHING.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [License](LICENSE)
 
-The precomputed swing-up references are included. **CasADi and SciPy are not needed to run the demo.** They are required only if you choose to regenerate the trajectory references.
-
-## ⚠️ Modeling scope
-
-Inertia models planar rigid-body motion with lumped motor dynamics, simplified sensing, damping, friction and discrete rail impacts. It does **not** model flexible rods, electrical motor dynamics, thermal behavior, backlash or real-world hardware uncertainty in full detail. Measured hardware calibration has **not** been validated.
-
-The UI is optimized for desktop use; it includes responsive layout rules, but performance and GPU rendering depend on browser and hardware.
-
-## 📖 Documentation
-
-- [Architecture and source map](docs/ARCHITECTURE.md)
-- [Full engineering guide](docs/ENGINEERING_GUIDE.md)
-- [Validation and test limits](docs/VALIDATION.md)
-- [GitHub Pages deployment](docs/PUBLISHING.md)
-- [Third-party notices](THIRD_PARTY_NOTICES.md)
-
----
-
-<div align="center">
-
-**Designed and developed by Mehdi Moallemkolaei**  
-*Nonlinear mechanics · control engineering · numerical simulation · reproducible experiments*
-
-</div>
+Designed and developed by **Mehdi Moallemkolaei**.
